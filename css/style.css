@@ -1,0 +1,49 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+
+main {
+	background-color: #f4fdff;
+}
+
+/******************************************
+/* NAVBAR
+/*******************************************/
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 40px;
+}
+
+.left-nav {
+	display: flex;
+	gap: 15px;
+}
+
+.logo {
+	width: 45px;
+}
+
+.left-nav a {
+	text-decoration: none;
+	font-size: medium;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	color: #61a3dc;
+}
+
+.donate {
+	background-color: #e58bae;
+	border: none;
+	border-radius: 15px;
+	padding: 7px 17px;
+	font-size: small;
+	color: white;
+}
