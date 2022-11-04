@@ -79,6 +79,8 @@ nav {
 	display: flex;
 	align-items: center;
 	gap: 15px;
+	text-decoration: none;
+	color: rgb(76, 76, 76);
 }
 
 .play-button {
