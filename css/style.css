@@ -148,6 +148,7 @@ nav {
 .voting p {
 	font-size: 1.1rem;
 	margin: 0;
+	width: 90%;
 }
 
 .voting img {
@@ -155,9 +156,9 @@ nav {
 }
 
 .voting button {
-	margin: 25px 0;
+	margin: 20px 0;
 	padding: 8px 30px;
-	background-color: #8a59cb;
+	background-color: #4acbeb;
 	border: none;
 	border-radius: 5px;
 	font-size: 0.9rem;
@@ -196,7 +197,7 @@ nav {
 	background-color: #e58bae;
 	border-radius: 20px;
 	padding: 10px 20px;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	margin-top: 30px;
 	color: white;
 	font-weight: 500;
