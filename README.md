@@ -34,3 +34,7 @@ For this project I used Figjam to create inspiration boards, define and refine t
 ### Fonts
 
 ### Color Palette
+
+#### Image Credits
+
+1.
