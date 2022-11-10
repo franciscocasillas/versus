@@ -29,16 +29,16 @@ nav {
 	font-size: 1rem;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	color: rgb(76, 76, 76);
+	color: #efefe5;
 }
 
 .donate {
-	background-color: #e58bae;
+	background-color: #b64642;
 	border: none;
 	border-radius: 15px;
 	padding: 6px 17px;
 	font-size: 0.9rem;
-	color: white;
+	color: #efefe5;
 }
 
 /******************************************
@@ -46,7 +46,7 @@ nav {
 /*******************************************/
 
 .top {
-	background-color: #e2f9ff;
+	background-color: #191918;
 }
 
 .top main {
@@ -56,7 +56,7 @@ nav {
 	align-items: center;
 	padding-top: 30px;
 	padding-bottom: 70px;
-	color: rgb(76, 76, 76);
+	color: #efefe5;
 }
 
 .top h1 {
@@ -83,7 +83,7 @@ nav {
 	align-items: center;
 	gap: 15px;
 	text-decoration: none;
-	color: rgb(76, 76, 76);
+	color: #efefe5;
 }
 
 .play-button {
@@ -99,15 +99,17 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 80px 0 100px 0;
+	padding: 65px 0 100px 0;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	color: rgb(76, 76, 76);
+	color: #efefe5;
+	background-color: #b64642;
 }
 
 .why h2 {
 	font-size: 2rem;
 	text-transform: uppercase;
+	color: #191918;
 }
 
 .why p {
@@ -122,21 +124,26 @@ nav {
 
 .voting {
 	display: flex;
-	padding: 80px 180px 60px 180px;
-	gap: 90px;
-	background-color: #f5d8e3;
+	padding: 80px 5% 60px 5%;
+	gap: 10%;
+	background-color: #efefe5;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	color: rgb(49, 49, 49);
+	color: #5f5d5a;
 	text-align: center;
 }
 
 .voting section {
-	width: 50%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 7px;
+}
+
+@media all and (min-width: 901px) {
+	.voting {
+		padding: 80px 15% 60px 15%;
+	}
 }
 
 .voting h3 {
@@ -158,11 +165,11 @@ nav {
 .voting button {
 	margin: 20px 0;
 	padding: 8px 30px;
-	background-color: #4acbeb;
+	background-color: #191918;
 	border: none;
 	border-radius: 5px;
 	font-size: 0.9rem;
-	color: white;
+	color: #efefe5;
 	font-weight: 600;
 }
 
@@ -178,8 +185,9 @@ nav {
 	text-align: center;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	color: rgb(76, 76, 76);
-	padding: 60px 0 100px 0;
+	color: #efefe5;
+	background-color: #191918;
+	padding: 60px 0 90px 0;
 }
 
 .comments h2 {
@@ -194,7 +202,7 @@ nav {
 
 .comments button {
 	border-style: none;
-	background-color: #e58bae;
+	background-color: #b64642;
 	border-radius: 20px;
 	padding: 10px 20px;
 	font-size: 0.9rem;
