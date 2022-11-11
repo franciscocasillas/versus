@@ -211,3 +211,64 @@ nav {
 	color: white;
 	font-weight: 500;
 }
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer {
+	background-color: #b64642;
+	color: white;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 0.7rem;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	margin: 0 50px;
+	border-bottom: 1px white solid;
+}
+
+.footer-bleft {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.footer-bleft a {
+	text-decoration: none;
+	color: rgb(6, 6, 6);
+	font-weight: 600;
+}
+
+.bottom-menu {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	font-weight: 500;
+}
+
+.options {
+	display: flex;
+	gap: 20px;
+}
+
+.footer-bright {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.footer-bright .address {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.footer-bbottom {
+	padding: 20px 50px;
+	padding-bottom: 30px;
+}
