@@ -244,8 +244,18 @@ footer {
 	font-weight: 600;
 }
 
+.socials {
+	display: flex;
+	gap: 8px;
+}
+
 .socials img {
-	width: 23px;
+	width: 16px;
+	filter: invert(100%);
+}
+
+.twitter {
+	filter: invert(100%) sepia(60%);
 }
 
 .bottom-menu {
