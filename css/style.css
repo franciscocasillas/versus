@@ -173,6 +173,12 @@ nav {
 	font-weight: 600;
 }
 
+.a,
+.b {
+	display: flex;
+	justify-content: space-between;
+}
+
 /******************************************
 /* COMMENTS SECTION
 /*******************************************/
